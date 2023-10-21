@@ -189,7 +189,7 @@ img {
 .active-page::after {
   background-color: var(--ocean);
   border-radius: 2px;
-  bottom: -4px;
+  bottom: -1px;
   content: "";
   height: 4px;
   left: 0;
