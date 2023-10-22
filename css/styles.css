@@ -168,12 +168,9 @@ img {
   gap: 40px;
 }
 
-.nav-li {
-  padding: 24px 0;
-}
-
 .nav-link {
   color: var(--navy-blue);
+  display: inline-block;
   font-weight: 500;
   letter-spacing: 0.02em;
   line-height: 1.5;
@@ -478,15 +475,11 @@ img {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-app-link:hover,
-.portfolio-app-link:focus {
+.portfolio-app-link:hover .app-paragraph,
+.portfolio-app-link:focus .app-paragraph {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-}
-
-.portfolio-app-link:hover .app-paragraph,
-.portfolio-app-link:focus .app-paragraph {
   transform: translateY(0%);
 }
 
